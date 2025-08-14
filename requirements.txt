@@ -1,0 +1,15 @@
+python-telegram-bot==21.4
+openai==1.99.9
+faiss-cpu==1.8.0.post1
+SQLAlchemy==2.0.32
+python-dotenv==1.0.1
+Pillow==10.4.0
+numpy==1.26.4
+aiogram==3.21.0
+annotated-types==0.7.0
+attrs==25.3.0
+psycopg2==2.9.10
+pydantic==2.11.7
+pydantic_core==2.33.2
+pydub==0.25.1
+requests==2.32.4

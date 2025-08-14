@@ -1,0 +1,6 @@
+TELEGRAM_BOT_TOKEN=""
+OPENAI_API_KEY=""
+POSTGRES_URL=""
+OPENAI_CHAT_MODEL="gpt-4o-mini"
+OPENAI_EMBEDDINGS_MODEL="text-embedding-3-small"
+OPENAI_TRANSCRIBE_MODEL="gpt-4o-mini-transcribe"
