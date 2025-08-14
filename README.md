@@ -8,7 +8,7 @@ Telegram-бот для консультаций и продажи товаров
 - Имитация оплаты
 
 ## Структура проекта
-
+```
 ai-sales-bot/
 ├─ app/
 │  ├─ database/
@@ -29,13 +29,14 @@ ai-sales-bot/
 ├─ .env.example
 ├─ README.md
 └─ requirements.txt
-
+```
 ## Запуск
 
-1) Python 3.10+
 1) `python -m venv .venv && source .venv/bin/activate` (Windows: `.venv\Scripts\activate`)
 2) `pip install -r requirements.txt`
-4) Скопируйте `.env.example` в `.env`, заполните `TELEGRAM_BOT_TOKEN`, `OPENAI_API_KEY` и `POSTGRES_URL`
-5) Запустите бота: python run_bot.py
+3) Скопируйте `env.example` в `.env`, заполните `TELEGRAM_BOT_TOKEN`, `OPENAI_API_KEY` и `POSTGRES_URL`
+4) Установите ffmpeg и добавьте в PATH
+5) Запустите бота: `python run_bot.py`
 
 При первом запуске RAG-индекс соберётся автоматически.
+
