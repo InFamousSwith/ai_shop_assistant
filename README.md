@@ -13,7 +13,7 @@ ai-sales-bot/
 ├─ app/
 │  ├─ database/
 │  │  ├─ db.py                 # SQLAlchemy модели и запросы
-│  │  └─ schemas.py
+│  │  └─ schemas.py            # ORM
 │  ├─ __init__.py
 │  ├─ ai_client.py             # работа с chatGPT
 │  ├─ config.py                # конфигурационный файл
@@ -39,4 +39,5 @@ ai-sales-bot/
 5) Запустите бота: `python run_bot.py`
 
 При первом запуске RAG-индекс соберётся автоматически.
+
 
